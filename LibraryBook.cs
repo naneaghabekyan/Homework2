@@ -2,7 +2,7 @@ using System;
 
 namespace LibraryBook
 {
-    internal class LibraryBook
+    public class LibraryBook
     {
         public string Title {  get;private set; }
         public string Author { get;private set; }
@@ -30,8 +30,8 @@ namespace LibraryBook
         }
 
     }
-    internal class Program
-{
+    public class Program
+    {
     static void Main()
     {
         LibraryBook book1 = new LibraryBook();
