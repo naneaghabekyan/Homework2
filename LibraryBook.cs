@@ -1,16 +1,4 @@
-﻿/* LibraryBook (Constructor chaining)
-Գրիր class LibraryBook, որը․
-● Ունի Title, Author, Year,
-● Ունի 3 կոնստրուկտոր (default, 2-param, 3-param),
-● Constructor chaining կիրառիր,
-● Console demo՝ ստեղծիր տարբեր տարբերակներով և տպիր։
-*/
-
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryBook
 {
@@ -21,7 +9,6 @@ namespace LibraryBook
         public int Year { get;private set; }
 
         public LibraryBook(): this ("", "", 0) { }
-
         public LibraryBook(string title, string author) : this(title, author, 0) { }
         public LibraryBook(string title, string author,int year ) 
         { 
@@ -43,4 +30,17 @@ namespace LibraryBook
         }
 
     }
+    internal class Program
+{
+    static void Main()
+    {
+        LibraryBook book1 = new LibraryBook();
+        LibraryBook book2 = new LibraryBook("1984", "George Orwell");
+        LibraryBook book3 = new LibraryBook("Dune", "Frank Herbert", 1965);
+
+        book1.ShowBook();
+        book2.ShowBook();
+        book3.ShowBook();
+    }
+}
 }
