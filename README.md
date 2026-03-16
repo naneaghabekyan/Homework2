@@ -28,3 +28,9 @@ Bonus (⭐)
 ● Ունի 3 կոնստրուկտոր (default, 2-param, 3-param),
 ● Constructor chaining կիրառիր,
 ● Console demo՝ ստեղծիր տարբեր տարբերակներով և տպիր։
+
+# House
+Առաջադրանք
+1. Ստեղծել House class
+○ ունի Room-ներ (composition)
+
