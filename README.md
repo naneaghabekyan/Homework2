@@ -31,6 +31,11 @@ Bonus (⭐)
 
 # House
 Առաջադրանք
-1. Ստեղծել House class
+Ստեղծել House class
 ○ ունի Room-ներ (composition)
+
+# Teacher_Course
+Ստեղծել Teacher և Course
+○ Teacher-ը դասավանդում է Course (aggregation)
+
 
