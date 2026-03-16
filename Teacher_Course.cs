@@ -1,7 +1,3 @@
-﻿/*
- 2. Ստեղծել Teacher և Course
-○ Teacher-ը դասավանդում է Course (aggregation)
-*/
 using System;
 
 namespace Teacher_Course
