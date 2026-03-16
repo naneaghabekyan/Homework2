@@ -1,7 +1,3 @@
-﻿/*
- 1. Ստեղծել House class
- ունի Room-ներ (composition)
- */
 using System;
 using System.Collections.Generic;
 
@@ -15,11 +11,10 @@ namespace House_Room
         public Room(string name): this(0, name) { }
         public Room(int wind,string name)
         {
-            Console.WriteLine("Ctor Room");
             Window_num = wind;
             Name = name;
         }
-        ~Room() { Console.WriteLine("Dtor Room"); }
+
 
     }
     public class House
@@ -28,7 +23,6 @@ namespace House_Room
         public List<Room> rooms { get; private set; }=new List<Room>();
         public House(int area) 
         {
-            Console.WriteLine("Ctor House");
             Area = area;
         }
 
@@ -48,8 +42,7 @@ namespace House_Room
             foreach (Room el in rooms)
                 Console.WriteLine($"{el.Name}: {el.Window_num}");
         }
-        ~House() { Console.WriteLine("Dtor House"); }
-    }
 
+    }
 
 }
