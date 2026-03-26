@@ -1,3 +1,19 @@
+# Vehicle (inheritance)
+Vehicle
+       |
+       + Car
+       + Bike
+       + Truck
+Vehicle
+  ● Speed
+  ● Start()
+Car
+  ● NumberOfDoors
+Bike
+  ● HasPedals
+Truck
+  ● LoadCapacity
+
 # Bank
 Առաջադրանք — BankAccount v2
 Պահանջներ 👇
